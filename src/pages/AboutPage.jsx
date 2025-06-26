@@ -6,7 +6,7 @@ const AboutPage = () =>{
         <div>
             <Header/>
          <div className="back">   
-      <main className="container">
+      <main className="container1">
         <section className="card2">
           <h1 className="title">About Vivekanand College</h1>
           <p>

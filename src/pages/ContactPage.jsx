@@ -6,7 +6,7 @@ const  ContactPage = () =>{
         <div>
             <Header/>
             <div className="back">
-            <main className="container">
+            <main className="container1">
         <section className="card2">
           <h1 className="title">Contact Us</h1>
           <p style={{textalign:'center'}}>We'd love to hear from you! Whether you have questions about admissions, programs, or campus life, our team is here to help.</p>

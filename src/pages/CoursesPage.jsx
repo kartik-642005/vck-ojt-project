@@ -7,7 +7,7 @@ const CoursesPage = () =>{
         <div>
             <Header/>
             <div className="back">
-             <main className="container">
+             <main className="container1">
         <section className="card2">
           <h1 className="title">Our Academic Programs</h1>
           <p>
@@ -16,8 +16,7 @@ const CoursesPage = () =>{
           <h2>Discover Campus Life</h2><hr/>
           <div className="vid-cou">
           <video  controls src="./Videos/college-tour.mp4" ></video>
-          
-       </div>
+          </div><br></br>
           <h2>Undergraduate Programs (UG)</h2>
           <hr />
           <ul>
@@ -93,7 +92,7 @@ const CoursesPage = () =>{
         <td>B.Sc. IT/CS (50%)</td>
       </tr>
     </tbody>
-  </table>
+  </table><br></br>
           <h4>Specialized & Vocational CoursesSpecialized & Vocational Courses</h4>
               
 
@@ -101,7 +100,7 @@ const CoursesPage = () =>{
           </p>
            <p>Explore detailed syllabi and admission criteria on our Admissions page.</p>
         
-            <button className="cta-button2"><Link to="/contact">Inquire About Courses</Link></button>
+            <button className="cta-button2"><Link style={{color:'white',textDecoration:'none'}} to="/contact">Inquire About Courses</Link></button>
         </section>
       </main>
         </div>
