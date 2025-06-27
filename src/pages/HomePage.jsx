@@ -14,7 +14,9 @@ const HomePage = () => {
                             <div class="overlay-text">
                                 <h1>Welcome to Vivekanand College </h1>
                                 <p>Your journey to excellence starts here.</p>
-                                <Button className='but-hed' variant="success" href="/admissions">Apply Now</Button>
+                                <Link to="/admissions" class="apply-btn">
+                                           Apply Now!
+                                         </Link>{" "}
                             </div>
                         </div>
                         <p>
@@ -66,7 +68,9 @@ const HomePage = () => {
                         <div className="txt-bot-hm">
                             <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
                             <p>Ready to explore our courses?</p>
-                            <Button className='but-hed' variant="success">Explore Cources</Button>
+                            <Link to="/courses" className="apply-btn">
+                                      Explore Courses
+                                    </Link>{" "}
                         </div>
                     </section>
                 </main>
